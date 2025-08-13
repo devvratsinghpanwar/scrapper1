@@ -21,6 +21,9 @@ SEARCH_ENGINE_URL = "https://search.brave.com/"
 def setup_driver():
     """Sets up a stealthy, VISIBLE Selenium Chrome driver."""
     options = webdriver.ChromeOptions()
+    # Keep LinkedIn login session
+    options.add_argument("--user-data-dir=F:/bot")
+
     options.add_argument("--start-maximized")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
@@ -161,10 +164,15 @@ def get_company_info(driver, company_name):
     return revenue_val, revenue_display, domain
 
 def get_contact_info(driver, full_name, company_name):
-    """Uses Selenium and Brave Search to find LinkedIn profile and designation."""
+    """
+    Uses Selenium and Brave Search to find LinkedIn profile and designation.
+    First visits Brave search to find the LinkedIn URL, then scrapes the profile headline.
+    """
     print(f"   -> Searching Brave for '{full_name}' at '{company_name}'...")
     linkedin_url, designation = "Not Found", "Not Found"
+    
     try:
+        # Search for LinkedIn profile on Brave
         robust_search(driver, f'site:linkedin.com/in/ "{full_name}" "{company_name}"')
 
         first_result = WebDriverWait(driver, 10).until(
@@ -172,16 +180,31 @@ def get_contact_info(driver, full_name, company_name):
         )
         link_tag = first_result.find_element(By.TAG_NAME, 'a')
         linkedin_url = link_tag.get_attribute('href')
-        title_text = first_result.find_element(By.CSS_SELECTOR, 'span.title').text
-
-        if '-' in title_text:
-            designation = title_text.split('-')[1].split('·')[0].strip()
-
         print(f"   -> Found LinkedIn URL: {linkedin_url}")
-        print(f"   -> Found Designation: {designation}")
+
+        # Visit LinkedIn profile to get actual designation
+        driver.get(linkedin_url)
+        try:
+            designation_elem = WebDriverWait(driver, 8).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div.text-body-medium.break-words"))
+            )
+            designation = designation_elem.text.strip()
+            print(f"   -> Extracted Designation from profile: {designation}")
+        except TimeoutException:
+            print("   -> Designation not visible (profile restricted or layout changed). Trying snippet...")
+            try:
+                title_text = first_result.find_element(By.CSS_SELECTOR, 'span.title').text
+                if '-' in title_text:
+                    designation = title_text.split('-')[1].split('·')[0].strip()
+                    print(f"   -> Fallback designation from snippet: {designation}")
+            except:
+                pass
+
     except Exception as e:
         print(f"   -> [ERROR] getting contact info: {e}")
+    
     return linkedin_url, designation
+
 
 # --- Main Orchestrator ---
 

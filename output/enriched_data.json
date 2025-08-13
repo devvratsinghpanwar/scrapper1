@@ -33,13 +33,13 @@
     {
       "Company Name": "Kuwait Post",
       "Country": "Kuwait",
-      "Revenue": "$324 million",
-      "Tier": "Diamond"
+      "Revenue": "55 million",
+      "Tier": "Gold"
     },
     {
       "Company Name": "Jotun Paints GCC",
       "Country": "Norway",
-      "Revenue": "$3.02 billion",
+      "Revenue": "$2.3 billion",
       "Tier": "Super Platinum"
     },
     {
@@ -66,70 +66,70 @@
       "Full Name": "Julian Kelly",
       "Company": "Google",
       "LinkedIn URL": "https://www.linkedin.com/in/julianskelly/",
-      "Designation": "Not Found",
+      "Designation": "Sr. Director, Hardware at Google Quantum AI",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "Andy Wong",
       "Company": "Meta",
       "LinkedIn URL": "https://www.linkedin.com/in/andykeewong/",
-      "Designation": "Not Found",
+      "Designation": "Engineering @ Meta | prev. @Block, Google, Amazon | Advocate for underrepresented groups and non-traditional backgrounds in tech",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "Anand Gupta",
       "Company": "Adobe",
       "LinkedIn URL": "https://in.linkedin.com/in/anandgupta1412",
-      "Designation": "Not Found",
+      "Designation": "SDE at Adobe",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "Sukriti Hans",
       "Company": "Adobe",
       "LinkedIn URL": "https://www.linkedin.com/in/sukriti-hans-7126281a4/",
-      "Designation": "Not Found",
+      "Designation": "SDE-II @ Adobe",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "Srilakshmi Peri",
       "Company": "Google",
       "LinkedIn URL": "https://in.linkedin.com/in/srilakshmiperi",
-      "Designation": "Not Found",
+      "Designation": "UX Design @ Google",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "Sriharsha Bodicherla",
       "Company": "Shipsy",
       "LinkedIn URL": "https://www.linkedin.com/in/krishna-priya-bodicherla-m-d-289089100/",
-      "Designation": "Not Found",
+      "Designation": "PGY-1 at Harlem Hospital Center",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "PARIMALA S",
       "Company": "Apple",
       "LinkedIn URL": "https://in.linkedin.com/in/parimala-srinivasagopalan",
-      "Designation": "Not Found",
+      "Designation": "SDE @ Apple | Ex Research @Adobe | Adobe WIT Scholar '22 | CSE @PESU '23",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "Sai Swarup Nerella",
       "Company": "Hubspot",
       "LinkedIn URL": "https://in.linkedin.com/in/swarup-nerella",
-      "Designation": "Not Found",
+      "Designation": "HubSpot SE@CloudFiles | Ex-Vmware | IIMCAL'22 | NITC'16",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "G Rohith Kumar",
       "Company": "RapidSOS",
       "LinkedIn URL": "https://www.linkedin.com/in/rohithkumarbondu/",
-      "Designation": "Not Found",
+      "Designation": "Graduate student at Rivier University",
       "Work Email": "Not Found (No Domain)"
     },
     {
       "Full Name": "Gauri Saxena",
       "Company": "PW & Co LLP",
       "LinkedIn URL": "https://www.linkedin.com/in/saurabh-saxena-3542a611/",
-      "Designation": "Not Found",
+      "Designation": "Co Founder & Partner - SimplyHR Solutions LLP",
       "Work Email": "Not Found (No Domain)"
     }
   ]
