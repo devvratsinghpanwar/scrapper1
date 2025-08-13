@@ -1,0 +1,2 @@
+# config.py
+SERPAPI_KEY = "9a35c694f8781eb502986c55d879c5c947165bee1e48d71b3b3fcb07fa78ab25"

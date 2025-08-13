@@ -1,0 +1,136 @@
+{
+  "companies": [
+    {
+      "Company Name": "Wincanton",
+      "Country": "UK",
+      "Revenue": "1.2 billion",
+      "Tier": "Super Platinum"
+    },
+    {
+      "Company Name": "Black Sheep UK",
+      "Country": "UK",
+      "Revenue": "$285 million",
+      "Tier": "Diamond"
+    },
+    {
+      "Company Name": "Davies Turner",
+      "Country": "UK",
+      "Revenue": "$237.9m",
+      "Tier": "Diamond"
+    },
+    {
+      "Company Name": "Edrington",
+      "Country": "UK",
+      "Revenue": "\u00a31 b",
+      "Tier": "Platinum"
+    },
+    {
+      "Company Name": "Bahrain Post",
+      "Country": "Bahrain",
+      "Revenue": "Not Found",
+      "Tier": "Unknown"
+    },
+    {
+      "Company Name": "Kuwait Post",
+      "Country": "Kuwait",
+      "Revenue": "$324 million",
+      "Tier": "Diamond"
+    },
+    {
+      "Company Name": "Jotun Paints GCC",
+      "Country": "Norway",
+      "Revenue": "$3.02 billion",
+      "Tier": "Super Platinum"
+    },
+    {
+      "Company Name": "MAF",
+      "Country": "UAE",
+      "Revenue": "$17.5 million",
+      "Tier": "Gold"
+    },
+    {
+      "Company Name": "Gulftainer",
+      "Country": "United Arab Emirates",
+      "Revenue": "$1.7m",
+      "Tier": "Gold"
+    },
+    {
+      "Company Name": "Expeditors",
+      "Country": "USA",
+      "Revenue": "$10.601b",
+      "Tier": "Super Platinum"
+    }
+  ],
+  "contacts": [
+    {
+      "Full Name": "Julian Kelly",
+      "Company": "Google",
+      "LinkedIn URL": "https://www.linkedin.com/in/julianskelly/",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "Andy Wong",
+      "Company": "Meta",
+      "LinkedIn URL": "https://www.linkedin.com/in/andykeewong/",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "Anand Gupta",
+      "Company": "Adobe",
+      "LinkedIn URL": "https://in.linkedin.com/in/anandgupta1412",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "Sukriti Hans",
+      "Company": "Adobe",
+      "LinkedIn URL": "https://www.linkedin.com/in/sukriti-hans-7126281a4/",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "Srilakshmi Peri",
+      "Company": "Google",
+      "LinkedIn URL": "https://in.linkedin.com/in/srilakshmiperi",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "Sriharsha Bodicherla",
+      "Company": "Shipsy",
+      "LinkedIn URL": "https://www.linkedin.com/in/krishna-priya-bodicherla-m-d-289089100/",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "PARIMALA S",
+      "Company": "Apple",
+      "LinkedIn URL": "https://in.linkedin.com/in/parimala-srinivasagopalan",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "Sai Swarup Nerella",
+      "Company": "Hubspot",
+      "LinkedIn URL": "https://in.linkedin.com/in/swarup-nerella",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "G Rohith Kumar",
+      "Company": "RapidSOS",
+      "LinkedIn URL": "https://www.linkedin.com/in/rohithkumarbondu/",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    },
+    {
+      "Full Name": "Gauri Saxena",
+      "Company": "PW & Co LLP",
+      "LinkedIn URL": "https://www.linkedin.com/in/saurabh-saxena-3542a611/",
+      "Designation": "Not Found",
+      "Work Email": "Not Found (No Domain)"
+    }
+  ]
+}
